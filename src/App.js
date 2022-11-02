@@ -1,81 +1,75 @@
-import img from './img.jpg';
+import img from './images/img.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <b>PROFILE</b>
-      <div className="profile">
-        <img src={img} width="150px" className="img" alt="logo" />
+      
+        <img src={img}  className="img" alt="logo" />
         <p>
-          id: profile_img
-        </p>
-        <div className="twitter">
-          <p>@ademoraheem</p>
-          <p>id: twitter</p>
+          Raheem Ibrahim Ademola
+        </p><br />
+        <div className="profile">
+          <p>twitter: @ademoraheem</p>
         </div>
-        <div className="slack">
-          <p>finesser</p>
-          <p>id: slack</p>
+        <div className="profile">
+          <p>slack: finesser</p>
         </div>
-      </div><br />
-      <b>LINKS</b>
-      <div className="link">
-        <p>
+      <div className="links">
+        {/* <p>
           <a
             className="App-link"
             href="https://training.zuri.team/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Links
+            Zuri Books
           </a>
-          <article>Zuri Team</article>
-        </p>
-        <p>
+        </p> */}
+        <div className="link-div">
           <a
-            className="App-link"
+            className="link"
             href="https://books.zuri.team"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Link
+            Zuri Books
           </a>
-          <article>Zuri Books </article>
-        </p>
-        <p>
+
+        </div>
+        <div className="link-div">
           <a
-            className="App-link"
+            className="link"
             href="https://books.zuri.team/python-for-beginners"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Link
+            Python Books
           </a>
-          <article>Python Books</article>
-        </p>
-        <p>
+
+        </div>
+        <div className="link-div">
           <a
-            className="App-link"
+            className="link"
             href="https://background.zuri.team"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Link
+            Background check on coders
           </a>
-          <article>Background check on coders</article>
-        </p>
-        <p>
+          
+        </div>
+        <div className="link-div">
           <a
-            className="App-link"
+            className="link"
             href="https://books.zuri.team./design-rules"
             target="_blank"
             rel="noopener noreferrer"
           >
-          Link  
+          Design Books
           </a>
-          <article>Design Books</article>
-        </p> 
+          
+        </div> 
       </div>
     </div>
   );

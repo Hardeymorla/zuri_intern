@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  margin: 50px;
+}
+.App img{
+  display: inline-block;
+  border-radius: 50%;
+  height: 130px;
+  width:130px
+}
+.profile{
+  
+  margin-bottom: 10px;
+  color: #101828;
+  border: 1px solid #EAECF0
+  
+  
+}
+.link-div{
+  height: 40px;
+  padding-top: 10px;
+  display: block;
+  margin-bottom: 10px;
+  
+  border: 1px solid #EAECF0
+}
+.link{
+  color: #101828;
+}
